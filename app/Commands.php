@@ -124,7 +124,7 @@ if (isset($argc) && $argc >= 2) {
 
         default:
             // Show a help message //
-            echo 'The usage is "php CrudTest.php <function> <data> [additional args]"';
+            echo 'The usage is "php Commands.php <function> <data> [additional args]"';
             echo '   Where function can be "createProduct", "getProduct", "updateProduct" and "deleteProduct" for products';
             echo '   and for clients can be "createClient", "getClient", "updateClient" and "deleteClient"';
             echo '   For linking a products to a clients its "linkProduct", "unlinkProduct", "getClientProducts" and "updateClientProduct"';
